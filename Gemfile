@@ -40,3 +40,5 @@ gem 'spring',        group: :development
 
 gem 'rspec-rails', group: :development
 gem 'capybara', group: :test
+
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
