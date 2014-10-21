@@ -27,7 +27,7 @@ gem 'sdoc', '~> 0.4.0',          group: :doc
 gem 'spring',        group: :development
 
 # Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
+gem 'bcrypt', '~> 3.1.7'
 
 # Use unicorn as the app server
 # gem 'unicorn'
@@ -42,3 +42,7 @@ gem 'rspec-rails', group: :development
 gem 'capybara', group: :test
 
 gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
+
+group :development do
+  gem 'annotate', '2.5.0'
+end
