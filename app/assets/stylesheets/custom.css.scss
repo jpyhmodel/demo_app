@@ -2,9 +2,10 @@
 
 /* mixins, variables, etc. */
 
-$grayMediumLight: #eaeaea;
-$grayLight: #e5e5e5;
-$grayDarker: #b5b5b5;
+$grayMediumLight: #8f8f8f;
+$grayLight: #959595;
+$grayDarker: #ff0515;
+$backNav: #66bbff;
 
 /* universal */
 
@@ -102,3 +103,16 @@ footer {
     }
   }
 }
+
+
+/* extend bootstrap */
+.navbar-inverse-red {
+  @extend .navbar-inverse !optional;
+  background-color: $backNav;
+}
+
+.btn-primary-white {
+  @extend .btn-primary !optional;
+  color: #ffffff !important
+}
+
